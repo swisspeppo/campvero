@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campvero | Amazon-Style Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar">
+        <a class="logo" href="#">Campvero</a>
+        <label class="search" aria-label="Produktsuche">
+          <span>🔎</span>
+          <input type="text" placeholder="Suche nach Produkten" />
+        </label>
+        <nav class="top-links" aria-label="Top-Navigation">
+          <a href="#">Kategorien</a>
+          <a href="#">Angebote</a>
+          <a href="#">Konto</a>
+          <a href="#">Warenkorb (2)</a>
+        </nav>
+      </header>
+
+      <section class="promo-strip">
+        <span class="promo-badge">Prime Deals</span>
+        <p>Jetzt bis zu 40 % sparen auf Camping- und Outdoor-Essentials.</p>
+        <a href="#">Jetzt entdecken</a>
+      </section>
+
+      <main class="main-layout">
+        <aside class="sidebar">
+          <h2>Beliebte Kategorien</h2>
+          <ul class="category-list">
+            <li>
+             <a class="category-link" href="#produkte" data-category="zelte">
+                <img
+                  src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f0?auto=format&fit=crop&w=600&q=80"
+                  alt="Zelt und Schlafsysteme"
+                />
+                <span>Zelte & Schlafsysteme</span>
+              </a>
+            </li>
+            <li>
+             <a class="category-link" href="#produkte" data-category="kochen">
+                <img
+                  src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80"
+                  alt="Kochen und Feuerstellen"
+                />
+                <span>Kochen & Feuerstellen</span>
+              </a>
+            </li>
+            <li>
+             <a class="category-link" href="#produkte" data-category="licht">
+                <img
+                  src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=600&q=80"
+                  alt="Lampen und Power"
+                />
+                <span>Lampen & Power</span>
+              </a>
+            </li>
+            <li>
+             <a class="category-link" href="#produkte" data-category="kleidung">
+                <img
+                  src="https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=600&q=80"
+                  alt="Outdoor-Kleidung"
+                />
+                <span>Outdoor-Kleidung</span>
+              </a>
+            </li>
+            <li>
+             <a class="category-link" href="#produkte" data-category="zubehoer">
+                <img
+                  src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80"
+                  alt="Zubehör und Werkzeuge"
+                />
+                <span>Zubehör & Werkzeuge</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="sidebar-card">
+            <img
+              class="sidebar-image"
+              src="https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?auto=format&fit=crop&w=800&q=80"
+              alt="Outdoor-Ausrüstung im Sonnenlicht"
+            />
+            <h3>Neue Saison</h3>
+            <p>Komfortable, leichte Ausrüstung für jede Expedition.</p>
+            <a href="#">Jetzt shoppen</a>
+          </div>
+        </aside>
+
+        <section class="content">
+          <section class="hero">
+            <div class="hero-copy">
+              <p class="eyebrow">Campvero Essentials</p>
+              <h1>Für Abenteuer, die länger bleiben.</h1>
+              <p>
+                Entdecke robuste Ausrüstung für Camping, Wandern und spontane
+                Wochenendtrips – alles in einem klaren, schnellen Shop-Setup.
+              </p>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="#produkte">Jetzt shoppen</a>
+                <a class="btn btn-secondary" href="#">Mehr erfahren</a>
+              </div>
+            </div>
+            <div class="hero-card" aria-label="Hauptprodukt">
+              <span class="hero-badge">Bestseller</span>
+              <div class="hero-media">
+                <img
+                  src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f0?auto=format&fit=crop&w=900&q=80"
+                  alt="Camping-Zelt inmitten einer natürlichen Landschaft"
+                />
+              </div>
+              <h2>Alpine Base Tent</h2>
+              <p>Wetterfest, leicht und schnell aufgebaut.</p>
+              <div class="hero-price">ab € 219</div>
+            </div>
+          </section>
+
+          <section class="section" id="produkte">
+            <div class="section-header">
+              <h2>Top-Produkte</h2>
+              <a href="#">Alle ansehen</a>
+            </div>
+            <div class="product-grid">
+              <article class="product-card" data-category="kleidung">
+                <div class="product-media">
+                  <img
+                    src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=800&q=80"
+                    alt="Robuste Wanderstiefel für Outdoor-Abenteuer"
+                  />
+                </div>
+                <h3>Trail Walker</h3>
+                <p>Stabiler Wander-Schuh mit atmungsaktiver Sohle.</p>
+                <div class="product-meta">
+                  <span>€ 89</span>
+                  <button type="button">In den Warenkorb</button>
+                </div>
+              </article>
+
+              <article class="product-card" data-category="kochen">
+                <div class="product-media">
+                  <img
+                    src="https://images.unsplash.com/photo-1504853182407-45b4d3c1b4e6?auto=format&fit=crop&w=800&q=80"
+                    alt="Kochstelle beim Campen im Wald"
+                  />
+                </div>
+                <h3>Camp Stove Mini</h3>
+                <p>Portable Kochstelle für schnelle Mahlzeiten im Freien.</p>
+                <div class="product-meta">
+                  <span>€ 54</span>
+                  <button type="button">In den Warenkorb</button>
+                </div>
+              </article>
+
+              <article class="product-card" data-category="licht">
+                <div class="product-media">
+                  <img
+                    src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+                    alt="Leuchtende Campinglampe in der Dunkelheit"
+                  />
+                </div>
+                <h3>Nightlight Pro</h3>
+                <p>Leuchtkraft für den Abend und lange Akkulaufzeit.</p>
+                <div class="product-meta">
+                  <span>€ 39</span>
+                  <button type="button">In den Warenkorb</button>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="section offer-section">
+            <div class="section-header">
+              <h2>Aktuelle Angebote</h2>
+              <a href="#">Mehr sparen</a>
+            </div>
+            <div class="offer-grid">
+              <article class="offer-card" data-category="zelte">
+                <span class="offer-badge">-30%</span>
+                <img
+                  src="https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=900&q=80"
+                  alt="Zweiteiliges Camping-Set"
+                />
+                <h3>Camp Comfort Set</h3>
+                <p>Schlafsack, Matte und Stirnlampe in einem Paket.</p>
+                <div class="offer-pricing">
+                  <span class="old-price">€ 219</span>
+                  <span class="new-price">€ 149</span>
+                </div>
+              </article>
+
+              <article class="offer-card" data-category="zubehoer">
+                <span class="offer-badge">-25%</span>
+                <img
+                  src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80"
+                  alt="Wander-Rucksack"
+                />
+                <h3>Summit Pack 32L</h3>
+                <p>Leicht, wasserfest und ideal für Tagestouren.</p>
+                <div class="offer-pricing">
+                  <span class="old-price">€ 129</span>
+                  <span class="new-price">€ 96</span>
+                </div>
+              </article>
+
+              <article class="offer-card" data-category="kochen">
+                <span class="offer-badge">-40%</span>
+                <img
+                  src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+                  alt="Camping-Ausruestung im Wald"
+                />
+                <h3>Trail Essentials</h3>
+                <p>Kompaktes Outdoor-Paket inklusive Tassen, Messer und Grill.</p>
+                <div class="offer-pricing">
+                  <span class="old-price">€ 189</span>
+                  <span class="new-price">€ 113</span>
+                </div>
+              </article>
+
+              <article class="offer-card" data-category="kleidung">
+                <span class="offer-badge">-20%</span>
+                <img
+                  src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=900&q=80"
+                  alt="Wanderstiefel"
+                />
+                <h3>Summit Trail Boots</h3>
+                <p>Robuste Trekking-Schuhe mit Komfort-Sohle.</p>
+                <div class="offer-pricing">
+                  <span class="old-price">€ 149</span>
+                  <span class="new-price">€ 119</span>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="section-header">
+              <h2>Heute im Angebot</h2>
+              <a href="#">Mehr Deals</a>
+            </div>
+            <div class="deal-list">
+              <article class="deal-card" data-category="zelte">
+                <div class="deal-media">
+                  <img
+                    src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f0?auto=format&fit=crop&w=900&q=80"
+                    alt="Outdoor-Set für Camping und Wandern"
+                  />
+                </div>
+                <h3>UltraLight Zelt</h3>
+                <p>Wetterfestes 2-Personen-Zelt mit Schnellaufbau-System.</p>
+                <span>Jetzt € 244</span>
+              </article>
+              <article class="deal-card" data-category="licht">
+                <div class="deal-media">
+                  <img
+                    src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80"
+                    alt="Wander-Rucksack im Outdoor-Setup"
+                  />
+                </div>
+                <h3>Nightlight Pro</h3>
+                <p>Powerbank-Lampe mit 3-Stufen-Beleuchtung und USB-C.</p>
+                <span>Jetzt € 39</span>
+              </article>
+            </div>
+          </section>
+
+          <section class="feature-banner">
+            <img
+              class="feature-image"
+              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80"
+              alt="Campvero-Ausrüstung im freiem Gelände"
+            />
+            <div class="feature-content">
+              <p class="eyebrow">Campvero Select</p>
+              <h2>Professionelle Ausrüstung für jede Reise.</h2>
+              <p>
+                Von Bergtouren bis zu Abendwanderungen – alles in einem
+                hochwertigen, durchdachten Setup.
+              </p>
+              <a class="btn btn-primary" href="#">Jetzt entdecken</a>
+            </div>
+          </section>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© 2026 Campvero – Premium Outdoor- und Campingshop</p>
+      </footer>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const categoryLinks = document.querySelectorAll(".category-link");
+        const filterableCards = document.querySelectorAll(".product-card, .offer-card, .deal-card");
+        const sectionTitle = document.querySelector("#produkte .section-header h2");
+        const categoryNames = {
+          zelte: "Zelte & Schlafsysteme",
+          kochen: "Kochen & Feuerstellen",
+          licht: "Lampen & Power",
+          kleidung: "Outdoor-Kleidung",
+          zubehoer: "Zubehör & Werkzeuge"
+        };
+
+        function applyCategory(category) {
+          let visibleCards = 0;
+
+          filterableCards.forEach((card) => {
+            const matches = category === "all" || card.dataset.category === category;
+            card.classList.toggle("is-hidden", !matches);
+            if (matches) visibleCards += 1;
+          });
+
+          categoryLinks.forEach((link) => {
+            const isActive = link.dataset.category === category;
+            link.classList.toggle("active", isActive);
+          });
+
+          if (sectionTitle) {
+            sectionTitle.textContent = category === "all"
+              ? "Top-Produkte"
+              : categoryNames[category] || "Top-Produkte";
+          }
+
+          if (visibleCards === 0 && sectionTitle) {
+            sectionTitle.textContent = "Keine Produkte in dieser Kategorie";
+          }
+        }
+
+        categoryLinks.forEach((link) => {
+          link.addEventListener("click", (event) => {
+            event.preventDefault();
+            const category = link.dataset.category || "all";
+            applyCategory(category);
+            document.getElementById("produkte")?.scrollIntoView({ behavior: "smooth", block: "start" });
+          });
+        });
+
+        applyCategory("all");
+      });
+    </script>
+  </body>
+</html>
